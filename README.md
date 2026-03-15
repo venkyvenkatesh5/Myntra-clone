@@ -1,79 +1,143 @@
-# Myntra-Clone
-# Myntra Clone Construct week project
+# 🛍️ Myntra Clone
 
-## Description 
-As a 5-member team, we collaborated on the "Myntra-Clone" front-end project, focusing on developing a user-friendly e-commerce website using web technologies. Our main objectives were responsive design, filtering, sorting, and personalized recommendations. Additionally, we successfully implemented a shopping cart, payment integration, wishlist functionality, and user detail management. This experience allowed us to grow as front-end developers, create engaging user interfaces, and work effectively as a team.
+A **frontend clone of the Myntra e-commerce website** built using **HTML, CSS, and JavaScript**.
+This project replicates the basic functionality of the Myntra platform including product browsing, filtering, sorting, wishlist, and cart features.
 
-## Preview-
+---
 
-- [Link](https://gilded-vacherin-2e78d2.netlify.app/index.html)
+## 🚀 Live Demo
 
-### Tech Used
-HTML
-CSS
-Javascript
-Local Storage
+🌐 Live Website:
+https://venkyvenkatesh5.github.io/myntra-clone/
 
-### Team Member
-- Arjun Dangi
-- Mo Faisal
-- Moin Mulani
-- Surendra singh
-- Abhishek
+📂 GitHub Repository:
+https://github.com/venkyvenkatesh5/myntra-clone
 
-# Work Description
+---
 
-## Home Page
+## 📌 Features
 
-![image](https://github.com/arjundangi01/Myntra-Clone/assets/135942012/95ca274f-18dc-4f1d-a7ab-6d03cc5024d7)
+### 🏠 Homepage
 
+* Myntra style navigation bar
+* Dropdown category menus
+* Search bar UI
+* Responsive layout
 
+### 👕 Product Pages
 
-## Admin Page
+* Dynamic product display using JavaScript
+* Product grid layout
+* Hover effects
+* Wishlist button
 
-![image](https://github.com/arjundangi01/Myntra-Clone/assets/135942012/76dc7300-99bd-4787-b281-1e2b26d16ec0)
+### 🔎 Filtering System
 
+Users can filter products by:
 
-## Navbar
+* Brand
+* Color
+* Price Range
+* Discount Range
+* Country of Origin
 
-![image](https://github.com/arjundangi01/Myntra-Clone/assets/135942012/f221c4d5-7287-4cbf-8313-7eca4230ef6f)
+### 📊 Sorting System
 
+Products can be sorted by:
 
-## Login or SignUp
-![image](https://github.com/arjundangi01/Myntra-Clone/assets/135942012/4a1c8398-ebde-43de-904f-8d3084f0eda3)
+* Recommended
+* Popularity
+* Price: High → Low
+* Price: Low → High
 
+### ❤️ Wishlist Feature
 
-## Verification Page
-![image](https://github.com/arjundangi01/Myntra-Clone/assets/135942012/c1d377b5-109c-447b-94a5-1afd1ddd15bc)
+* Add products to wishlist
+* Wishlist data stored using **LocalStorage**
 
+### 🛒 Cart System
 
-## Login Page
-![image](https://github.com/arjundangi01/Myntra-Clone/assets/135942012/768a9234-b95c-4ecd-8d2d-60930f290160)
+* Add items to cart
+* Display cart items
+* Cart data stored in **LocalStorage**
 
+### 📦 Product Details Page
 
-## Create Account Page
-![image](https://github.com/arjundangi01/Myntra-Clone/assets/135942012/a3a106c4-7ba0-44bc-90ae-1dd9d7961e61)
+* Click a product to view detailed information
+* Product data passed using **LocalStorage**
 
+---
 
-## Product page
-![image](https://github.com/arjundangi01/Myntra-Clone/assets/135942012/7a78090b-c1bc-464f-b3c7-b28203c7df24)
+## 🛠️ Tech Stack
 
-## Product Detail Page
-![image](https://github.com/arjundangi01/Myntra-Clone/assets/135942012/69960123-81bd-4f2c-8bee-b57c70dd8e2c)
+* **HTML5**
+* **CSS3**
+* **JavaScript (Vanilla JS)**
+* **LocalStorage API**
+## 📁 Project Structure
 
+```plaintext
+Myntra-Clone
+│
+├── index.html
+│
+├── nav
+│   ├── navbar.css
+│   └── nav.js
+│
+├── productPage
+│   ├── productItem
+│   ├── MensData
+│   ├── WomensData
+│   ├── kidsData
+│   └── kurtas
+│
+├── cartPage
+│   └── cart.html
+│
+├── Wishlist
+│   └── wishlist.html
+│
+└── Login_Signup
+    └── SignUp.html
+```
 
+---
 
+## ⚙️ How to Run the Project
 
-## Cart Page
-![image](https://github.com/arjundangi01/Myntra-Clone/assets/135942012/493321b9-4dc2-4b66-acb8-71c180183d64)
+1️⃣ Clone the repository
 
-## Address Page
-![image](https://github.com/arjundangi01/Myntra-Clone/assets/135942012/22182813-ff03-4f0d-89bb-0ddea8b25bac)
+```bash
+git clone https://github.com/venkyvenkatesh5/myntra-clone.git
+```
 
-## Payment Page
-![image](https://github.com/arjundangi01/Myntra-Clone/assets/135942012/2dc82569-4827-440a-8d34-d7bd35258b21)
+2️⃣ Open the project folder
 
+3️⃣ Run **index.html** in your browser
 
+---
 
+## 🔮 Future Improvements
 
+* Backend integration
+* User authentication
+* Payment gateway integration
+* Product rating system
+* Search functionality
+* API-based product data
 
+---
+
+## 👨‍💻 Author
+
+**Venkatesh**
+
+GitHub:
+https://github.com/venkyvenkatesh5
+
+---
+
+## ⭐ Acknowledgement
+
+This project is inspired by the design and user experience of the **Myntra** e-commerce platform.
